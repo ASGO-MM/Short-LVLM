@@ -16,23 +16,37 @@ i.e., training-free, model-agnostic, and highly compatible.
 <div align="center">
 <img src=images\compare.png>
 </div>
-
+ Comparison of different model pruning methods.
+(a) The training-based pruning methods involve fine-tuning
+the pruned models. (b) The layer pruning methods achieve
+training-free model compression via a localize-then-prune
+process. (c) Our paradigm focuses on using important tokens
+for layer localization and bridging inter-layer feature gaps
+via weight projection.
 
 ## Method
 <div align="center">
 <img src=images\method.png>
 </div>
+Overview of our Short-LVLM (SVL). Our Short-LVLM consists of two key designs: (a) Localizing redundant layers with
+Token Importance Scores (TIS) and (b) Bridging inter-layer feature gaps via Subspace-Compensated Pruning (SCP).
+
 
 ## Quantitative Results
 <div align="center">
 <img src=images\quan.png>
 </div>
-
+Results of Short-LVLM under varying Pruning Ratios across different Model Architectures and Model Scales. Acc and
+Speed denote the accuracy and samples per second, respectively.
 
 ## Qualitative Results
 <div align="center">
 <img src=images\qual.png>
 </div>
+ Qualitative results of Short-LVLM. The retained
+layers are depicted in blue. The results demonstrate that
+Short-LVLM can preserve the capacity of LVLMs even when
+nearly half of the layers are removed.
 
 ## Installation
 
@@ -40,4 +54,4 @@ Coming soon.
 
 ## Acknowlegdements
 
-This codebase is based on [LLaVA](https://github.com/haotian-liu/LLaVA), [Qwen-VL](https://github.com/QwenLM/Qwen-VL) and [FastV](https://github.com/pkunlp-icler/FastV). Many thanks to the authors for generously sharing their codes!
+This codebase is based on [LLaVA](https://github.com/haotian-liu/LLaVA), [Qwen-VL](https://github.com/QwenLM/Qwen-VL), [mPLUG-Owl2]([https://github.com/pkunlp-icler/FastV](https://github.com/X-PLUG/mPLUG-Owl)) and [Nullu](https://github.com/Ziwei-Zheng/Nullu). Many thanks to the authors for generously sharing their codes!
