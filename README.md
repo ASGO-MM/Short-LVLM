@@ -54,4 +54,4 @@ Coming soon.
 
 ## Acknowlegdements
 
-This codebase is based on [LLaVA](https://github.com/haotian-liu/LLaVA), [Qwen-VL](https://github.com/QwenLM/Qwen-VL), [mPLUG-Owl2](https://github.com/X-PLUG/mPLUG-Owl)) and [Nullu](https://github.com/Ziwei-Zheng/Nullu). Many thanks to the authors for generously sharing their codes!
+This codebase is based on [LLaVA](https://github.com/haotian-liu/LLaVA), [Qwen-VL](https://github.com/QwenLM/Qwen-VL), [mPLUG-Owl2](https://github.com/X-PLUG/mPLUG-Owl) and [Nullu](https://github.com/Ziwei-Zheng/Nullu). Many thanks to the authors for generously sharing their codes!
